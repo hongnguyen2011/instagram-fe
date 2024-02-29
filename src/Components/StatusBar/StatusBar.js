@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./StatusBar.css";
 import { Avatar } from "@material-ui/core";
+import statusimg from "../../images/pp1.png";
+import uploadimage from "../../images/statusadd.png";
 
 import uploadimage from "../../images/statusadd.png";
 
