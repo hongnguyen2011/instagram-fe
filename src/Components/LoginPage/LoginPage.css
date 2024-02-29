@@ -22,18 +22,11 @@ body {
     background-color: white;
 }
 
-.login_button {
-    width           : 270px;
-    height          : 36px;
-    border-radius   : 5px;
-    font-weight     : bold;
-    border          : 1px solid #0395F6;
-    background-color: #0395F6;
-    color           : #DBDBDB;
-    margin-top      : 5px;
+.loginPage__signin {
+    margin-top: 25px;
 }
 
-.loginpage_text {
+.logipage__text {
     width           : 258px;
     height          : 36px;
     margin          : 5px;
@@ -43,23 +36,40 @@ body {
     border-radius   : 5px;
 }
 
-.login_ordiv {
+.login__button {
+    width           : 270px;
+    height          : 36px;
+    border-radius   : 5px;
+    font-weight     : bold;
+    margin-top      : 5px;
+    border          : 1px solid #0395F6;
+    background-color: #0395F6;
+    color           : white;
+}
+
+.login__ordiv {
     display        : flex;
     justify-content: center;
     margin-top     : 10px;
 }
 
-.login_dividor {
+.login__dividor {
     width     : 80px;
     height    : 0px;
     margin-top: 10px;
     border    : 1px solid #DBDBDB;
 }
 
-.login_or {
-    margin     : 0px 20px;
+.login__or {
+    margin     : 0px 10px;
     font-weight: bold;
-    color      : #bebebe;
+    color      : #8E8E8E;
+}
+
+.login__fb {
+    color      : #395185;
+    font-weight: bold;
+    margin-top : 30px;
 }
 
 .login_forget {
@@ -70,10 +80,32 @@ body {
     text-align : center;
 }
 
-.login__fb {
-    color      : #395185;
-    font-weight: bold;
-    margin-top : 30px;
+.loginpage__signupoption {
+    margin-top      : 25px;
+    height          : 56px;
+    width           : 350px;
+    background-color: white;
+    border          : 1px solid #DBDBDB;
+    text-align      : center;
+}
+
+.loginPage__signin {
+    margin-top: 20px;
+}
+
+.loginPage__signup {
+    margin-top: 20px;
+}
+
+.loginPage__downloadSection {
+    height    : 105px;
+    width     : 350px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.loginPage__option {
+    margin-top: 20px;
 }
 
 .loginPage_dwimg {
